@@ -1,0 +1,39 @@
+{
+    "id": "0dc795cc-e8b5-4451-acb8-5f8facf79fd4",
+    "name": "Offline POS - Re-sending Transactions",
+    "publisher": "LS Retail CAP",
+    "version": "1.0.0.0",
+    "brief": "",
+    "description": "",
+    "privacyStatement": "",
+    "EULA": "",
+    "help": "",
+    "url": "",
+    "logo": "",
+    "dependencies": [
+        {
+            "id": "5ecfc871-5d82-43f1-9c54-59685e82318d",
+            "publisher": "LS Retail",
+            "name": "LS Central",
+            "version": "28.0.0.0"
+        }
+    ],
+    "screenshots": [],
+    "platform": "1.0.0.0",
+    "application": "28.0.0.0",
+    "idRanges": [
+        {
+            "from": 93000,
+            "to": 93001
+        }
+    ],
+    "resourceExposurePolicy": {
+        "allowDebugging": true,
+        "allowDownloadingSource": true,
+        "includeSourceInSymbolFile": true
+    },
+    "runtime": "17.0",
+    "features": [
+        "NoImplicitWith"
+    ]
+}
