@@ -14,8 +14,10 @@ pageextension 93001 "LSC CAP Transaction Register" extends "LSC Transaction Regi
                 trigger OnAction()
                 var
                     EOTMgt: Codeunit "LSC POS Trans. EOT Mgt.";
+                    SelectedTransHeader: Record "LSC Transaction Header";
                 begin
-                    EOTMgt.SendFromPage(Rec);
+                    CurrPage.SetSelectionFilter(SelectedTransHeader);
+                    EOTMgt.SendFromPage(SelectedTransHeader);
                 end;
             }
 
